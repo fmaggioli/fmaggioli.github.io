@@ -22,7 +22,7 @@ repository               : "fmaggioli/fmaggioli.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Filippo Maggioli"
   pronouns         : # example: "she/her"  
   bio              : "I am a Tenured Assistant Professor at Pegaso University, in the Department of Information Science and Technology. My research interests are focused on Geometry Processing, Computational Geometry, Shape Analysis, and Spectral Geometry"
