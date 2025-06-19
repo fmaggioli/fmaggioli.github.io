@@ -1,0 +1,11 @@
+---
+title: "S.C.O.T.T.Y. - Beam Me Up"
+excerpt: "Tower defense game for a Global Game Jam<br/><img src='/images/portfolio/scotty.jpg'>"
+collection: portfolio
+---
+
+A 2D game developed in Unity during the Global Game Jam 2018 in Rome.  
+
+The game has online collaborative multiplayer features and mixes a classical tower defense game with a card game.  
+
+The game can be found on the archive of the [Global Game Jam](https://v3.globalgamejam.org/2018/games/scotty-beam-me).
