@@ -30,6 +30,5 @@ F. Maggioli, D. Baieri, S. Melzi, E. Rodolà
 &nbsp;  
 &nbsp;
 
-This is the work that is currently driving my research activities. Working on this paper really got me into a rabbit-hole of Riemannian geometry and the weird properties of non-Euclidean metric spaces.  
-With this work, I understood that geometry processing can be completely rethought in a multi-resolution fashion to ensure efficiency without losing accuracy.  
+This is the work that is currently driving my research activities. Working on this paper really got me into a rabbit-hole of Riemannian geometry and the weird properties of non-Euclidean metric spaces. With this work, I understood that geometry processing can be completely rethought in a multi-resolution fashion to ensure efficiency without losing accuracy.  
 The results of months and months of working on this paper gave me some crucial insights on how the classical definitions of manifolds via charts and atlases is still exploitable and that there is much we can draw from it, if we understand what to look at.
