@@ -28,6 +28,7 @@ The work I am most proud of (until now)
 *European Conference on Computer Vision (ECCV) 2024*  
 F. Maggioli, D. Baieri, S. Melzi, E. Rodolà  
 &nbsp;
+&nbsp;
 
 This is the work that is currently driving my research activities. Working on this paper really got me into a rabbit-hole of Riemannian geometry and the weird properties of non-Euclidean metric spaces.  
 With this work, I understood that geometry processing can be completely rethought in a multi-resolution fashion to ensure efficiency without losing accuracy.  
