@@ -1,0 +1,11 @@
+---
+title: "OpenGL Fractals"
+excerpt: "An OpenGL implementation for common 2D fractals<br/><img src='/images/portfolio/julia.jpg'>"
+collection: portfolio
+---
+
+An implementation that takes advantage of OpenGL's compute shaders for generating 2D fractals.  
+
+The code can produce the Mandelrbot's set, the Julia's set, and the Newton's fractals.
+
+The project can be found on a [GitHub repository](https://github.com/filthynobleman/gpu-fractals).
