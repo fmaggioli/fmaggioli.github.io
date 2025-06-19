@@ -1,6 +1,6 @@
 ---
 title: "Procedural River Landscapes"
-excerpt: "Procedural generation of terrain heightmaps containing rivers<br/><img src='/images/portfolio/rivergen.jpg>"
+excerpt: "Procedural generation of terrain heightmaps containing rivers<br/><img src='/images/portfolio/rivergen.jpg'>"
 collection: portfolio
 ---
 

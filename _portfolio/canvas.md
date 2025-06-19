@@ -1,6 +1,6 @@
 ---
 title: "OpenGL Shader Canvas"
-excerpt: "Procedural generation of terrain heightmaps containing rivers<br/><img src='/images/portfolio/shader-canvas.jpg>"
+excerpt: "Procedural generation of terrain heightmaps containing rivers<br/><img src='/images/portfolio/shader-canvas.jpg'>"
 collection: portfolio
 ---
 
