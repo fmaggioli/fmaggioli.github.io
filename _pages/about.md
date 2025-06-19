@@ -22,10 +22,11 @@ I also realy am into history, fantasy, and science fiction, and I love books (ye
 
 The work I am most proud of (until now)
 ---------------------------------------
-<img style="float: left" width="500" src="../images/highlighted/rematching.png">
+<img style="float: left" width="400" src="/images/highlighted/rematching.png">
 
-## ReMatching: Low-Resolution Representations for Scalable Shape Correspondence
-### European Conference on Computer Vision (ECCV) 2024
+**ReMatching: Low-Resolution Representations for Scalable Shape Correspondence**  
+*European Conference on Computer Vision (ECCV) 2024*  
+
 This is the work that is currently driving my research activities. Working on this paper really got me into a rabbit-hole of Riemannian geometry and the weird properties of non-Euclidean metric spaces.  
 With this work, I understood that geometry processing can be completely rethought in a multi-resolution fashion to ensure efficiency without losing accuracy.  
 The results of months and months of working on this paper gave me some crucial insights on how the classical definitions of manifolds via charts and atlases is still exploitable and that there is much we can draw from it, if we understand what to look at.
