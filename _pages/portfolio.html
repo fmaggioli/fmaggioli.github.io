@@ -27,7 +27,11 @@ img {
   </style>
 
 
+<table width="100%">
+<tbody>
 {% for post in site.portfolio reversed %}
   {% include portfolio-single.html %}
 {% endfor %}
+</tbody>
+</table>
 
