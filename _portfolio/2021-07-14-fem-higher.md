@@ -1,6 +1,7 @@
 ---
 title: "Any Order Laplace-Beltrami Operator"
-excerpt: "A non-linear FEM discretization of the LBO for triangular meshes<br/><img src='/images/portfolio/fem-higher.jpg'>"
+excerpt: "A non-linear FEM discretization of the LBO for triangular meshes."
+teaser: "/images/portfolio/fem-higher.jpg"
 collection: portfolio
 ---
 

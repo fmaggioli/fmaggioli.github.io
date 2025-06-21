@@ -1,6 +1,7 @@
 ---
 title: "CBLAS-Like Strassen's Algorithm"
-excerpt: "An implementation of the Strassen's algorithm with a CBLAS-like interface<br/><img src='/images/portfolio/cblas-strassen.jpg'>"
+excerpt: "An implementation of the Strassen's algorithm with a CBLAS-like interface."
+teaser: "/images/portfolio/cblas-strassen.jpg"
 collection: portfolio
 ---
 

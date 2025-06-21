@@ -1,6 +1,7 @@
 ---
 title: "Mega RoBoxe"
-excerpt: "2D multiplayer fighting game for a Global Game Jam<br/><img src='/images/portfolio/megaroboxe.jpg'>"
+excerpt: "2D multiplayer fighting game for a Global Game Jam."
+teaser: "/images/portfolio/megaroboxe.jpg"
 collection: portfolio
 ---
 
