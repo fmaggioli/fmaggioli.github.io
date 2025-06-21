@@ -1,6 +1,7 @@
 ---
 title: "OpenGL Shader Canvas"
-excerpt: "Minimal canvas for testing OpenGL fragment shaders.<br/><br/><img src='/images/portfolio/shader-canvas.jpg'>"
+excerpt: "Minimal canvas for testing OpenGL fragment shaders."
+teaser: "/images/portfolio/shader-canvas.jpg"
 collection: portfolio
 ---
 
