@@ -43,7 +43,10 @@
               Recommended citation: {{ post.citation }}<br/>
             {% endif %}
             {% if post.paperurl %}
-            <a href="{{ post.paperurl }}">PDF (Author version)</a> | 
+            <a href="{{ post.paperurl }}">PDF (author version)</a> | 
+            {% endif %}
+            {% if post.supmaturl %}
+            <a href="{{ post.supmaturl }}">Supplementary material</a> | 
             {% endif %}
             {% if post.arxivurl %}
             <a href="{{ post.arxivurl }}">arXiv</a> | 

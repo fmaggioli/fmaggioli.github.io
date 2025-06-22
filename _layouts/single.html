@@ -53,7 +53,10 @@ layout: default
           Recommended citation: {{ page.citation }}<br/>
         {% endif %}
         {% if page.paperurl %}
-        <a href="{{ page.paperurl }}">PDF (Author version)</a> | 
+        <a href="{{ page.paperurl }}">PDF (author version)</a> | 
+        {% endif %}
+        {% if page.supmaturl %}
+        <a href="{{ page.supmaturl }}">Supplementary material</a> | 
         {% endif %}
         {% if page.arxivurl %}
         <a href="{{ page.arxivurl }}">arXiv</a> | 
