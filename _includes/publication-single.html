@@ -37,20 +37,24 @@
                 {% elsif post.date %}
                 <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Last updated:</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
                 {% endif %}
-            
-            {% if post.citation and post.paperurl and post.codeurl and post.bibtexurl and post.arxivurl %}
-              <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">PDF (Author version)</a> | <a href="{{ post.arxivurl }}">arXiv</a> | <a href="{{ post.codeurl }}">Code</a> | <a href="{{ post.bibtexurl }}">Bibtex (.bib)</a></p>
-            {% elsif post.citation and post.paperurl and post.codeurl and post.bibtexurl %}
-              <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">PDF (Author version)</a> | <a href="{{ post.codeurl }}">Code</a> | <a href="{{ post.bibtexurl }}">Bibtex (.bib)</a></p>
-            {% elsif post.citation and post.paperurl and post.bibtexurl and post.arxivurl %}
-              <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">PDF (Author version)</a> | <a href="{{ post.arxivurl }}">arXiv</a> | <a href="{{ post.bibtexurl }}">Bibtex (.bib)</a></p>
-            {% elsif post.citation and post.paperurl and post.bibtexurl %}
-              <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Bibtex (.bib)</a></p>
-            {% elsif post.citation and post.paperurl %}
-              <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-            {% elsif post.citation %}
-              <p>Recommended citation: {{ post.citation }}</p>
+
+            <p>
+            {% if post.citation %}
+              Recommended citation: {{ post.citation }}<br/>
             {% endif %}
+            {% if post.paperurl %}
+            <a href="{{ post.paperurl }}">PDF (Author version)</a> | 
+            {% endif %}
+            {% if post.arxivurl %}
+            <a href="{{ post.arxivurl }}">arXiv</a> | 
+            {% endif %}
+            {% if post.codeurl %}
+            <a href="{{ post.codeurl }}">Code</a> | 
+            {% endif %}
+            {% if post.bibtexurl %}
+            <a href="{{ post.bibtexurl }}">BibTeX (.bib)</a>
+            {% endif %}
+            </p>
           </div>
       </article>
     </div>

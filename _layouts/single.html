@@ -47,18 +47,18 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if post.citation and post.paperurl and post.codeurl and post.bibtexurl and post.arxivurl %}
-          <p style="font-size: smaller">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">PDF (Author version)</a> | <a href="{{ post.arxivurl }}">arXiv</a> | <a href="{{ post.codeurl }}">Code</a> | <a href="{{ post.bibtexurl }}">Bibtex (.bib)</a></p>
-        {% elsif post.citation and post.paperurl and post.codeurl and post.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">PDF (Author version)</a> | <a href="{{ post.codeurl }}">Code</a> | <a href="{{ post.bibtexurl }}">Bibtex (.bib)</a></p>
-        {% elsif post.citation and post.paperurl and post.bibtexurl and post.arxivurl %}
-          <p style="font-size: smaller">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">PDF (Author version)</a> | <a href="{{ post.arxivurl }}">arXiv</a> | <a href="{{ post.bibtexurl }}">Bibtex (.bib)</a></p>
-        {% elsif post.citation and post.paperurl and post.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Bibtex (.bib)</a></p>
-        {% elsif post.citation and post.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-        {% elsif post.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ post.citation }}</p>
+        {% if page.citation and page.paperurl and page.codeurl and page.bibtexurl and page.arxivurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">PDF (Author version)</a> | <a href="{{ page.arxivurl }}">arXiv</a> | <a href="{{ page.codeurl }}">Code</a> | <a href="{{ page.bibtexurl }}">Bibtex (.bib)</a></p>
+        {% elsif page.citation and page.paperurl and page.codeurl and page.bibtexurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">PDF (Author version)</a> | <a href="{{ page.codeurl }}">Code</a> | <a href="{{ page.bibtexurl }}">Bibtex (.bib)</a></p>
+        {% elsif page.citation and page.paperurl and page.bibtexurl and page.arxivurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">PDF (Author version)</a> | <a href="{{ page.arxivurl }}">arXiv</a> | <a href="{{ page.bibtexurl }}">Bibtex (.bib)</a></p>
+        {% elsif page.citation and page.paperurl and page.bibtexurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Bibtex (.bib)</a></p>
+        {% elsif page.citation and page.paperurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
+        {% elsif page.citation %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
