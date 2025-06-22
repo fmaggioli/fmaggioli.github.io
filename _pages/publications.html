@@ -11,6 +11,16 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+  .text {
+    font-size: 18px;
+  }
+
+  table, tr, td {
+    border: none;
+  }
+</style>
+
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
@@ -21,10 +31,14 @@ author_profile: true
       {% endif %}
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
+        <table width="100%">
+        <tbody>
         {% assign title_shown = true %}
       {% endunless %}
       {% include publication-single.html %}
     {% endfor %}
+    </tbody>
+    </table>
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
