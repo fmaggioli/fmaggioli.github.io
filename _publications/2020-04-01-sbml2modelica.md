@@ -3,7 +3,6 @@ title: "SBML2Modelica: integrating biochemical models within open-standard simul
 collection: publications
 category: manuscripts
 permalink: /publication/2020-04-01-sbml2modelica
-# excerpt: 'SBML2Modelica enables the translation of SBML models into executable Modelica code, supporting efficient and scalable simulation with general-purpose modeling tools while preserving biological accuracy.'
 date: 2020-04-01
 venue: 'Bioinformatics'
 paperurl: '/files/2020-04-01-sbml2modelica.pdf'
