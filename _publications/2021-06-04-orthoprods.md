@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2021-06-04-orthoprods
 date: 2021-06-04
-venue: 'Computer Graphics Forum -- EUROGRAPHICS'
+venue: 'Computer Graphics Forum - EUROGRAPHICS'
 paperurl: '/files/2021-06-04-orthoprods.pdf'
 supmaturl: '/files/2021-06-04-orthoprods-supmat.pdf'
 bibtexurl: '/files/2021-06-04-orthoprods.bib'
