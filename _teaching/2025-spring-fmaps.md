@@ -4,7 +4,7 @@ collection: teaching
 type: "Ph.D. course"
 permalink: /teaching/2025-spring-fmaps
 venue: "Sapienza &ndash; University of Rome, Department of Computer Science"
-date: 2025-01-01
+date: 2025-06-26
 location: "Rome, Italy"
 ---
 
