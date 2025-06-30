@@ -11,7 +11,7 @@ bibtexurl: '/files/2021-06-04-orthoprods.bib'
 codeurl: 'https://github.com/filthynobleman/orthogonalized-fourier-polynomial'
 teaser: '/images/publications/orthoprods.jpg'
 doi: 'https://doi.org/10.1111/cgf.142645'
-citation: 'Maggioli, Filippo, et al. "Orthogonalized fourier polynomials for signal approximation and transfer." <i>Computer Graphics Forum</i>. Vol. 40. No. 2. 2021.'
+citation: 'Maggioli Filippo, et al. "Orthogonalized fourier polynomials for signal approximation and transfer." <i>Computer Graphics Forum</i>. Vol. 40. No. 2. 2021.'
 ---
 
 ## Abstract

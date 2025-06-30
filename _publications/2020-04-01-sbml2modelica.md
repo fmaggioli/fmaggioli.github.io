@@ -11,7 +11,7 @@ bibtexurl: '/files/2020-04-01-sbml2modelica.bib'
 codeurl: 'https://bitbucket.org/mclab/sbml2modelica/src/master/'
 teaser: '/images/publications/sbml2modelica.jpg'
 doi: 'https://doi.org/10.1093/bioinformatics/btz860'
-citation: 'Maggioli Filippo et al. "SBML2Modelica: integrating biochemical models within open-standard simulation ecosystems." <i>Bioinformatics</i> 36.7 (2020): 2165-2172.'
+citation: 'Maggioli Filippo, et al. "SBML2Modelica: integrating biochemical models within open-standard simulation ecosystems." <i>Bioinformatics</i> 36.7 (2020): 2165-2172.'
 ---
 
 ## Abstract
