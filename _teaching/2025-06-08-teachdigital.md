@@ -5,6 +5,7 @@ type: "Teaching qualification training course"
 permalink: /teaching/2025-06-08-teachdigital
 venue: "Pegaso University"
 date: 2025-06-08
+singledate: true
 location: "Rome, Italy"
 ---
 
