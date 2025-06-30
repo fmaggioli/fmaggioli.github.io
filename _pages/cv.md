@@ -9,37 +9,58 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* March 2025 &mdash; Present: Assistant professor &ndash; tenure track
+  * Pegaso University
+  * Department of Computer Science and Information Technologies
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* December 2023 &mdash; February 2025: Postdoctoral researcher
+  * University of Milano-Bicocca
+  * Advisor: Prof. Simone Melzi
+  * Research activity on computational and spectral geometry.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+* April 2024 &mdash; February 2025: Adjunct professor
+  * Pegaso University
+  * Undergrad courses on *Computer Achitecture* and *Networking and Cybersecurity*.
+
+* August 2023 &mdash; November 2023: Postdoctoral researcher
+  * Sapienza &ndash; University of Rome
+  * Advisor: Prof. Emanuele Rodolà
+  * Research activity on computational geometry, spectral geometry, and numerical linear algebra.
+
+* September 2022 &mdash; January 2023: Research internship
+  * King Abdullah University of Science and Technology
+  * Advisor: Prof. Dominik L. Michels
+  * Research activity on simulation of natural phenomena in agricultural settings.
+
+* March 2021 &mdash; July 2021: Teaching assistant
+  * Sapienza &ndash; University of Rome
+  * Undergrad course on *Introduction to Algorithms*.
+
+Education
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* November 2019 &mdash; September 2023: Ph.D in Computer Science
+  * Sapienza &ndash; University of Rome
+  * Advisor: Prof. Emanuele Rodolà
+  * Thesis title: *Scalable geometry processing for computer graphics applications*.
+  * **Honourable mention at EG-Italy Award for PhD Thesis in Computer Graphics**
+* January 2018 &mdash; July 2019: M.Sc. in Computer Science
+  * Sapienza &ndash; University of Rome
+  * Advisor: Prof. Emanuele Rodolà
+  * Thesis title: *Time-efficient function reconstruction via Laplacian eigenproducts*.
+* Semptember 2014 &mdash; December 2017: B.Sc. in Computer Science
+  * Sapienza &ndash; University of Rome
+  * Advisor: Prof. Enrico Tronci
+  * Thesis title: *Modeling of biological pathways with systems of differential-algebraic equations*.
+
+Selection of students
+======
+* Daniele Baieri, Ph.D. &ndash; Internal supervisor (not formal advisor)
+* Giulio Viganò, Ph.D. &ndash; Internal supervisor (not formal advisor)
+* Francesca Maccarone, Ph.D. &ndash; Internal supervisor (not formal advisor)
+* Giorgio Longari, M.Sc. &ndash; Internal supervisor (not formal advisor)
+* Simone Pedico, B.Sc. &ndash; Thesis co-advisor
 
 Publications
 ======
