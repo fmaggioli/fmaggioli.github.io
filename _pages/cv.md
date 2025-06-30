@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+You can also find my full CV [here](/files/cv_filippomaggioli.pdf)!  
+
 Work experience
 ======
 * March 2025 &ndash; Present: **Assistant professor &mdash; tenure track**
