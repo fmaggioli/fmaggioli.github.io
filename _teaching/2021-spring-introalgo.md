@@ -13,6 +13,4 @@ The role involved teaching duties, tutoring responsibilities, and supervision du
 
 Course Abstract
 ===============
-The course involves the basics of algorithmic analysis and design.  
-It provides the knowledge of the fundamental data structures, such as collections, trees, graphs, and hash tables.  
-The course also provides the foundations of time and space complexity analysis.
+The course introduces fundamental concepts of algorithmic thinking, data structures, and computational efficiency. Students explore problem-solving strategies and learn to design algorithms through pseudocode, asymptotic analysis, and recurrence relations. Key topics include elementary search methods, recursion, sorting algorithms (insertion, merge, quick, heap, counting, bucket), and foundational structures such as lists, stacks, queues, dictionaries, binary search trees, and AVL trees. The course emphasizes both theoretical analysis and practical implementation, focusing on algorithm correctness, complexity, and the appropriate use of data structures in algorithm design.
