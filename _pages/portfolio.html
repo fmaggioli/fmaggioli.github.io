@@ -16,6 +16,19 @@ author_profile: true
   table, tr, td {
     border: none;
   }
+
+  table {
+    width: 100%;
+    table-layout: fixed; /* Forces consistent column sizing */
+  }
+
+  td:first-child {
+    width: 200px;  /* Left column: fixed width */
+  }
+
+  td:last-child {
+    width: calc(100% - 200px);  /* Right column: takes remaining space */
+  }
 </style>
 
 
