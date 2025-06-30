@@ -40,16 +40,16 @@ Work experience
 
 Education
 ======
-* November 2019 &ndash; September 2023: Ph.D in Computer Science
+* November 2019 &ndash; September 2023: **Ph.D in Computer Science**
   * Sapienza &ndash; University of Rome
   * Advisor: Prof. Emanuele Rodolà
   * Thesis title: *Scalable geometry processing for computer graphics applications*.
   * **Honourable mention at EG-Italy Award for PhD Thesis in Computer Graphics**
-* January 2018 &ndash; July 2019: M.Sc. in Computer Science
+* January 2018 &ndash; July 2019: **M.Sc. in Computer Science**
   * Sapienza &ndash; University of Rome
   * Advisor: Prof. Emanuele Rodolà
   * Thesis title: *Time-efficient function reconstruction via Laplacian eigenproducts*.
-* Semptember 2014 &ndash; December 2017: B.Sc. in Computer Science
+* Semptember 2014 &ndash; December 2017: **B.Sc. in Computer Science**
   * Sapienza &ndash; University of Rome
   * Advisor: Prof. Enrico Tronci
   * Thesis title: *Modeling of biological pathways with systems of differential-algebraic equations*.
