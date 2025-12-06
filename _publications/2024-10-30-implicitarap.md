@@ -10,6 +10,7 @@ arxivurl: 'https://arxiv.org/abs/2405.12895'
 bibtexurl: '/files/2024-10-30-implicitarap.bib'
 teaser: '/images/publications/implicit-arap.png'
 citation: 'Baieri Daniele, et al. "Implicit-ARAP: Efficient Handle-Guided Deformation of High-Resolution Meshes and Neural Fields via Local Patch Meshing." <i>arXiv preprint arXiv:2405.12895</i>. 2024.'
+redirect_to: /publication/2025-12-04-implicitarap
 ---
 
 ## Abstract

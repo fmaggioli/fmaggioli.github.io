@@ -73,6 +73,9 @@ Publications
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
+      {% if post.redirect_to %}
+        {% continue %}
+      {% endif %}
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2>
         {% assign title_shown = true %}
