@@ -77,37 +77,37 @@ layout: default
         {% endif %}
         {% if page.paperurl %}
         <div class="resources-item">
-          <img class="resources-img" src="/images/icons/pdf-icon.png">
+          <a href="{{ page.paperurl }}"><img class="resources-img" src="/images/icons/pdf-icon.png"></a>
           <a href="{{ page.paperurl }}">PDF (author version)</a>
         </div>
         {% endif %}
         {% if page.supmaturl %}
         <div class="resources-item">
-          <img class="resources-img" src="/images/icons/supmat-icon.png">
+          <a href="{{ page.supmaturl }}"><img class="resources-img" src="/images/icons/supmat-icon.png"></a>
           <a href="{{ page.supmaturl }}">Supplementary material</a>
         </div>
         {% endif %}
         {% if page.arxivurl %}
         <div class="resources-item">
-          <img class="resources-img" src="/images/icons/arxiv-icon.png">
+          <a href="{{ page.arxivurl }}"><img class="resources-img" src="/images/icons/arxiv-icon.png"></a>
           <a href="{{ page.arxivurl }}">arXiv</a>
         </div>
         {% endif %}
         {% if page.codeurl %}
         <div class="resources-item">
-          <img class="resources-img" src="/images/icons/code-icon.png">
+          <a href="{{ page.codeurl }}"><img class="resources-img" src="/images/icons/code-icon.png"></a>
           <a href="{{ page.codeurl }}">Code</a>
         </div>
         {% endif %}
         {% if page.doi %}
         <div class="resources-item">
-          <img class="resources-img" src="/images/icons/doi-icon.png">
+          <a href="{{ page.doi }}"><img class="resources-img" src="/images/icons/doi-icon.png"></a>
           <a href="{{ page.doi }}">DOI</a>
         </div>
         {% endif %}
         {% if page.bibtexurl %}
         <div class="resources-item">
-          <img class="resources-img" src="/images/icons/bibtex-icon.png">
+          <a href="{{ page.bibtexurl }}"><img class="resources-img" src="/images/icons/bibtex-icon.png"></a>
           <a href="{{ page.bibtexurl }}">BibTeX (.bib)</a>
         </div>
         {% endif %}
