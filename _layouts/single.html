@@ -14,6 +14,12 @@ layout: default
   {% endunless %}
 {% endif %}
 
+<style>
+  iframe {
+    width: 100%;
+  }
+</style>
+
 <div id="main" role="main">
   {% include sidebar.html %}
 
@@ -61,6 +67,9 @@ layout: default
         {% endif %}
         {% if page.supmaturl %}
         <a href="{{ page.supmaturl }}">Supplementary material</a> | 
+        {% endif %}
+        {% if post.youtubeurl %}
+        <a href="{{ post.youtubeurl }}">Video</a> | 
         {% endif %}
         {% if page.arxivurl %}
         <a href="{{ page.arxivurl }}">arXiv</a> | 
