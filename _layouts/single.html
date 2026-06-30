@@ -19,6 +19,10 @@ layout: default
     width: 100%;
     aspect-ratio: 16 / 9;
   }
+
+  .resources-item {
+    vertical-align: middle;
+  }
 </style>
 
 <div id="main" role="main">
@@ -67,22 +71,40 @@ layout: default
           Recommended citation: {{ page.citation }}<br/>
         {% endif %}
         {% if page.paperurl %}
-        <a href="{{ page.paperurl }}">PDF (author version)</a> | 
+        <div class="resources-item">
+          <img src="/images/icons/pdf-icon.png" width="36">
+          <a href="{{ page.paperurl }}">PDF (author version)</a>
+        </div>
         {% endif %}
         {% if page.supmaturl %}
-        <a href="{{ page.supmaturl }}">Supplementary material</a> | 
+        <div class="resources-item">
+          <img src="/images/icons/supmat-icon.png" width="36">
+          <a href="{{ page.supmaturl }}">Supplementary material</a>
+        </div>
         {% endif %}
         {% if page.arxivurl %}
-        <a href="{{ page.arxivurl }}">arXiv</a> | 
+        <div class="resources-item">
+          <img src="/images/icons/arxiv-icon.png" width="36">
+          <a href="{{ page.arxivurl }}">arXiv</a>
+        </div>
         {% endif %}
         {% if page.codeurl %}
-        <a href="{{ page.codeurl }}">Code</a> | 
+        <div class="resources-item">
+          <img src="/images/icons/code-icon.png" width="36">
+          <a href="{{ page.codeurl }}">Code</a>
+        </div>
         {% endif %}
         {% if page.doi %}
-        <a href="{{ page.doi }}">DOI</a> | 
+        <div class="resources-item">
+          <img src="/images/icons/doi-icon.png" width="36">
+          <a href="{{ page.doi }}">DOI</a>
+        </div>
         {% endif %}
         {% if page.bibtexurl %}
-        <a href="{{ page.bibtexurl }}">BibTeX (.bib)</a>
+        <div class="resources-item">
+          <img src="/images/icons/bibtex-icon.png" width="36">
+          <a href="{{ page.bibtexurl }}">BibTeX (.bib)</a>
+        </div>
         {% endif %}
         </p>
 
