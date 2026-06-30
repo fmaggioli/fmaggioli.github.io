@@ -59,7 +59,9 @@ layout: default
         {{ content }}
 
         
+        {% if page.citation or page.paperurl or page.supmaturl or page.arxivurl or page.codeurl or page.doi or page.bibtexturl %}
         <h2>Resources</h2>
+        {% endif %}
         <p style="font-size: smaller">
         {% if page.citation %}
           Recommended citation: {{ page.citation }}<br/>
