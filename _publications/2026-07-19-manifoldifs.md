@@ -18,6 +18,10 @@ citation: 'Maggioli Filippo, et al. "Distance-based iterated function systems on
 Iterated Function Systems (IFSs) are a classical tool for procedural fractal generation, but their formulation is strongly bind to the underlying coordinate system, and thus limited to flat Euclidean domains. We introduce an alternative formulation for an entire family of IFSs, exclusively based on the notion of distances and geodesic paths, that allows defining systems directly on Riemannian domains, enabling the procedural generation of fractal patterns that are aware of the underlying geometry.
 
 
+<iframe src="https://www.youtube.com/embed/JV05KzbcDIA?si=Ik_E2dqJy5rab14n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
 ## BibTeX
 ```bibtex
 @inproceedings{maggioli2026distance,
