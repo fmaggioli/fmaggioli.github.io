@@ -9,6 +9,7 @@ paperurl: '/files/2025-12-04-implicitarap.pdf'
 arxivurl: 'https://arxiv.org/abs/2405.12895'
 bibtexurl: '/files/2025-12-04-implicitarap.bib'
 codeurl: https://github.com/dbaieri/implicit-arap
+doi: 'https://doi.org/10.52202/085713-4158'
 teaser: '/images/publications/implicit-arap.png'
 citation: 'Baieri Daniele, et al. "Implicit-ARAP: Efficient Handle-Guided Neural Field Deformation via Local Patch Meshing." <i>The Thirty-ninth Annual Conference on Neural Information Processing Systems.</i>. 2025.'
 ---
